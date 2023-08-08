@@ -9,4 +9,14 @@ window.onload = function () {
   darkModeButton.onclick = function () {
     document.querySelector("body").style.backgroundColor = "purple";
   };
+
+  let defaultFontSizeButton = document.querySelector("#button-default-font-size");
+  defaultFontSizeButton.onclick = function () {
+    document.querySelector("body").style.fontSize = "initial";
+  };
+
+  let largeFontSizeButton = document.querySelector("#button-large-font-size");
+  largeFontSizeButton.onclick = function () {
+    document.querySelector("body").style.fontSize = "larger";
+  };
 };
